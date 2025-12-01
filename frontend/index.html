@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <title>SF Sitio Web</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>SF - Medicina Prepaga a tu Alcance</h1>
+        <nav>
+            <a href="#seccionPrincipal">Sección Principal</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#formulario">Formulario</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- SECCIÓN PRINCIPAL -->
+        <section id="seccionPrincipal" class="contenedor sobre-nosotros">
+            <h2 class="tituloBienvenidos"></h2>
+
+            <div class="contenedor-sobre-nosotros">
+                <img src="img/imgprimerseccion.png" alt="" class="imagen-about-us">
+
+                <div class="contenido-textos">
+                    <h3>¡Bienvenido a SF!</h3>
+                    <p>Tu lugar para encontrar la mejor cobertura y servicios médicos.</p>
+
+                    <h3>Tu bienestar, nuestra misión</h3>
+
+                    <ul>
+                        <li><strong>Planes accesibles y flexibles.</strong></li>
+                        <li><strong>Red de profesionales de la salud.</strong></li>
+                        <li><strong>Atención médica de calidad.</strong></li>
+                    </ul>
+
+                    <p>Confía en SF para cuidar de tu salud y la de tus seres queridos.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section id="servicios" class="contenedorServicios">
+            <h2 class="titulo3">Servicios que ofrecemos:</h2>
+
+            <div class="servicios">
+                <div class="columna">
+                    <p class="subtitulo1"><strong>1.</strong> Planes de Salud Personalizados</p>
+                    <p class="subtitulo1"><strong>2.</strong> Red de Médicos y Especialistas</p>
+                    <p class="subtitulo1"><strong>3.</strong> Consultas Médicas Online</p>
+                    <p class="subtitulo1"><strong>4.</strong> Atención de Urgencias 24/7</p>
+                    <p class="subtitulo1"><strong>5.</strong> Laboratorio y Diagnósticos</p>
+                    <p class="subtitulo1"><strong>6.</strong> Consultas Médicas Online</p>
+                </div>
+
+                <div class="columna">
+                    <p class="subtitulo2"><strong>7.</strong> Cobertura Odontológica</p>
+                    <p class="subtitulo2"><strong>8.</strong> Atención Preventiva</p>
+                    <p class="subtitulo2"><strong>9.</strong> Asistencia en Viajes</p>
+                    <p class="subtitulo2"><strong>10.</strong> Programas de Bienestar</p>
+                    <p class="subtitulo2"><strong>11.</strong> Farmacia con Descuentos</p>
+                    <p class="subtitulo2"><strong>12.</strong> Acompañamiento para Enfermedades Crónicas</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- FORMULARIO -->
+        <section id="formulario">
+            <form id="formularioContacto">
+
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono"><br><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+                <input type="submit" value="Enviar Consulta">
+            </form>
+
+            <p id="mensajeError" style="display:none; color:red;">
+                Por favor, complete todos los campos requeridos.
+            </p>
+
+            <p id="mensajeGuardado" style="display:none; color:green;">
+                La consulta fue enviada correctamente.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <section id="contacto"></section>
+
+        <div class="contenedor-footer">
+            <p class="redes-sociales">Redes sociales:</p>
+
+            <div class="social-container">
+                <a href="https://wa.me/2954497786" target="_blank" class="social-link">
+                    <img src="img/whatsappicon.png" alt="WhatsApp" class="icon">
+                </a>
+
+                <a href="https://www.instagram.com/cocaroluciag.ok/" target="_blank" class="social-link">
+                    <img src="img/igicon.png" alt="Instagram" class="icon">
+                </a>
+
+                <a href="https://www.facebook.com/luciaguadalupe.cocaro" target="_blank" class="social-link">
+                    <img src="img/faceicon.png" alt="Facebook" class="icon">
+                </a>
+
+                <a href="mailto:cocaroluciaguadalupe@gmail.com" target="_blank" class="social-link">
+                    <img src="img/gmailicon.png" alt="Gmail" class="icon">
+                </a>
+
+                <a href="https://github.com/cocaroluciag" target="_blank" class="social-link">
+                    <img src="img/githubicon.png" alt="GitHub" class="icon">
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/formulario.js"></script>
+
+</body>
+</html>

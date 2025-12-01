@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\models\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\models\\clientrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|c:\\users\\cocar\\source\\repos\\software_factory_tp_docker\\software_factory_tp_docker\\backend\\proyectodocker\\proyectodocker\\proyectodocker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FBB21DD5-615D-4195-8D1E-7765B1275F1C}|ProyectoDocker\\ProyectoDocker.csproj|solutionrelative:proyectodocker\\proyectodocker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ProyectoDocker\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ProyectoDocker\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwBMAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-27T05:10:07.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoDocker\\appsettings.json",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\appsettings.json",
+              "RelativeToolTip": "ProyectoDocker\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T06:14:07.641Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoDocker\\Program.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Program.cs",
+              "RelativeToolTip": "ProyectoDocker\\Program.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAkwD8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T01:41:31.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClientRequest.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Models\\ClientRequest.cs",
+              "RelativeDocumentMoniker": "ProyectoDocker\\Models\\ClientRequest.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Models\\ClientRequest.cs",
+              "RelativeToolTip": "ProyectoDocker\\Models\\ClientRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T06:12:36.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "ProyectoDocker\\Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "ProyectoDocker\\Controllers\\ClientsController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwDoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T05:27:38.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ProyectoDocker\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ProyectoDocker\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T02:45:47.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ProyectoDocker\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\appsettings.Development.json",
+              "RelativeToolTip": "ProyectoDocker\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-26T23:16:56.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ProyectoDocker\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\WeatherForecast.cs",
+              "RelativeToolTip": "ProyectoDocker\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-26T23:15:59.375Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProyectoDocker.csproj",
+              "DocumentMoniker": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\ProyectoDocker.csproj",
+              "RelativeDocumentMoniker": "ProyectoDocker\\ProyectoDocker.csproj",
+              "ToolTip": "C:\\Users\\cocar\\source\\repos\\SOFTWARE_FACTORY_TP_DOCKER\\SOFTWARE_FACTORY_TP_DOCKER\\backend\\ProyectoDocker\\ProyectoDocker\\ProyectoDocker.csproj",
+              "RelativeToolTip": "ProyectoDocker\\ProyectoDocker.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T02:37:10.612Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
