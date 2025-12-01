@@ -31,6 +31,7 @@ Ejecutar todo el entorno dentro de contenedores Docker para facilitar la portabi
 📂 2. Clonar el Repositorio
 
 git clone https://github.com/cocaroluciag/FINAL-DOCKER-SOFTWARE-FACTORY-III.git
+
 cd FINAL-DOCKER-SOFTWARE-FACTORY-III
 
 🐳 3. Levantar el Entorno con Docker
@@ -93,7 +94,10 @@ Docker
 Docker Compose
 
 🛠 5. Rutas del Backend y Ejemplos de Respuesta
-📌 GET /api/registro
+
+(Nota: Si bien la consigna menciona un endpoint llamado /submit-client-data, en este proyecto se implementa el estándar RESTful /api/clients, cumpliendo exactamente la misma funcionalidad requerida para almacenar los datos enviados desde el formulario).
+
+📌 GET /api/clients
 
 Obtener todos los registros.
 
@@ -102,23 +106,27 @@ Ejemplo de respuesta:
 [
   {
     "id": 1,
-    "nombre": "Lucia",
+    "name": "Lucia",
     "email": "cocarolucia@gmail.com",
-    "mensaje": "Hola, primer mensaje!"
+    "phone": "12345678",
+    "message": "Hola, primer mensaje!"
+    "createdAt": "2025-11-30T18:42:15.327Z"
   }
 ]
 
-📌 POST /api/registro
+📌 POST /api/clients
 
 Enviar datos del formulario.
 
 Body esperado:
 
 {
-  "nombre": "User2",
-  "email": "cocarrolucia2@mail.com",
-  "mensaje": "Consulta..."
+  "name": "Lucia",
+  "email": "cocarolucia@gmail.com",
+  "phone": "12345678",
+  "message": "Hola, primer mensaje!"
 }
+
 
 
 Respuesta:
@@ -130,6 +138,6 @@ Respuesta:
 
 
 
-🙌 Autor
+🙌 Autor:
 
 Proyecto realizado por Cócaro, Lucia Guadalupe.
