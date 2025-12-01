@@ -54,17 +54,37 @@ El frontend en un servidor web (Nginx)
 
 La base de datos MySQL
 
-PhpMyAdmin
-
 🔗 Accesos por defecto
-Servicio    URL
-FRONTEND: 	http://localhost:8080
 
-BACKEND (.NET API):	http://localhost:5000
+Servicio |	URL
+FRONTEND	 http://localhost:8080
 
-PhpMyAdmin: http://localhost:8081
+BACKEND (.NET API)	http://localhost:5000/api/clients
 
-MySQL:	puerto 3306
+Swagger (.NET API)	http://localhost:5000/swagger/index.html
+
+PhpMyAdmin	http://localhost:8082
+
+MySQL	Puerto 3306
+
+🔐 Credenciales por defecto (MySQL / PhpMyAdmin)
+
+Host: mysql
+
+Usuario: root
+
+Contraseña: luciasql
+
+Base de datos: client_db
+
+📌 Acceso web a PhpMyAdmin
+
+👉 http://localhost:8082
+
+Usuario: root
+
+Contraseña: luciasql
+
 
 🧱 4. Tecnologías Utilizadas
 Frontend:
@@ -106,13 +126,14 @@ Ejemplo de respuesta:
 [
   {
     "id": 1,
-    "name": "Lucia",
-    "email": "cocarolucia@gmail.com",
-    "phone": "12345678",
-    "message": "Hola, primer mensaje!"
-    "createdAt": "2025-11-30T18:42:15.327Z"
+    "name": "lucia",
+    "email": "cocaroluciaguadalupe@gmail.com",
+    "phone": "2923497786",
+    "message": "Hola, primer mensaje",
+    "createdAt": "2025-12-01T19:23:10"
   }
 ]
+
 
 📌 POST /api/clients
 
@@ -121,12 +142,13 @@ Enviar datos del formulario.
 Body esperado:
 
 {
-  "name": "Lucia",
-  "email": "cocarolucia@gmail.com",
-  "phone": "12345678",
-  "message": "Hola, primer mensaje!"
+  "name": "string",
+  "email": "user@example.com",
+  "phone": "string",
+  "message": "string"
 }
 
+(No es necesario enviar id ni createdAt, ya que son generados automáticamente por el backend).
 
 
 Respuesta:
