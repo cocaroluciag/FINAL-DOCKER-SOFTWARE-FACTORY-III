@@ -1,5 +1,3 @@
-PRUEBA
-
 📘Trabajo Práctico: Desarrollo y Despliegue de una Aplicación Web con Docker y Backend - Software Factory III
 
 
