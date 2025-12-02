@@ -202,9 +202,9 @@ Ejemplo de respuesta:
 
     "id": 1,
 
-    "nombre": "Lucas",
+    "nombre": "Lucia",
 
-    "email": "lucas@mail.com",
+    "email": "lucia@mail.com",
 
     "mensaje": "Hola!"
 
@@ -228,9 +228,9 @@ Body esperado:
 
 {
 
-  "nombre": "Lucas",
+  "nombre": "Lucia",
 
-  "email": "lucas@mail.com",
+  "email": "lucia@mail.com",
 
   "mensaje": "Consulta..."
 
