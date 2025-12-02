@@ -1,165 +1,374 @@
-# FINAL-DOCKER-SOFTWARE-FACTORY-III
+PRUEBA
 
-📘Trabajo Práctico: Desarrollo y Despliegue de una Aplicación Web con Docker y Backend - Software Factory III.
+📘Trabajo Práctico: Desarrollo y Despliegue de una Aplicación Web con Docker y Backend - Software Factory III
+
+
 
 Este proyecto consiste en una aplicación Fullstack con:
 
+
+
 Backend: API REST desarrollada en .NET 8 / C#
+
+
 
 Frontend: HTML, CSS y JavaScript.
 
+
+
 Base de datos: MySQL + PhpMyAdmin
+
+
 
 Contenerización: Docker y Docker Compose.
 
+
+
 El objetivo del proyecto es permitir que un usuario complete un formulario dentro del frontend, el cual envía los datos al backend y éstos se almacenan correctamente en la base de datos.
+
+
 
 📌 1. Funcionalidad del Proyecto
 
+
+
 La aplicación permite:
 
-Enviar información desde un Formulario Web.
+
+
+Enviar información desde un formulario web.
+
+
 
 Procesar la solicitud en un backend desarrollado en .NET.
 
+
+
 Almacenar la información en una base de datos MySQL.
+
+
 
 Visualizar y administrar la BD mediante PhpMyAdmin.
 
+
+
 Ejecutar todo el entorno dentro de contenedores Docker para facilitar la portabilidad y despliegue.
+
+
 
 📂 2. Clonar el Repositorio
 
-git clone https://github.com/cocaroluciag/FINAL-DOCKER-SOFTWARE-FACTORY-III.git
 
-cd FINAL-DOCKER-SOFTWARE-FACTORY-III
+
+git clone https://github.com/tu-usuario/tu-repositorio.git
+
+cd tu-repositorio
+
+
 
 🐳 3. Levantar el Entorno con Docker
 
+
+
 Asegurate de tener instalado:
+
+
 
 Docker
 
+
+
 Docker Compose
+
+
 
 Luego ejecutar:
 
+
+
 docker-compose up --build
 
-- Esto iniciará:
+
+
+
+
+Esto iniciará:
+
+
 
 El backend en un contenedor .NET
 
-El frontend en un servidor web (Nginx)
+
+
+El frontend en un servidor web (Nginx o similar)
+
+
 
 La base de datos MySQL
 
-🔗 Accesos por defecto
 
-Servicio |	URL
-FRONTEND	 http://localhost:8080
-
-BACKEND (.NET API)	http://localhost:5000/api/clients
-
-Swagger (.NET API)	http://localhost:5000/swagger/index.html
-
-PhpMyAdmin	http://localhost:8082
-
-MySQL	Puerto 3306
-
-🔐 Credenciales por defecto (MySQL / PhpMyAdmin)
-
-Host: mysql
-
-Usuario: root
-
-Contraseña: luciasql
-
-Base de datos: client_db
-
-📌 Acceso web a PhpMyAdmin
-
-👉 http://localhost:8082
-
-Usuario: root
-
-Contraseña: luciasql
-
-
-🧱 4. Tecnologías Utilizadas
-Frontend:
-
-HTML5
-
-CSS3
-
-JavaScript
-
-Backend:
-
-.NET 8 / ASP.NET Core Web API
-
-C#
-
-Base de Datos
-
-MySQL
 
 PhpMyAdmin
 
-Contenerización:
+
+
+🔗 Accesos por defecto
+
+Servicio	URL
+
+Frontend	http://localhost:8080
+
+
+
+Backend (.NET API)	http://localhost:5000
+
+
+
+PhpMyAdmin	http://localhost:8081
+
+
+
+MySQL	puerto 3306
+
+🧱 4. Tecnologías Utilizadas
+
+Frontend
+
+
+
+HTML5
+
+
+
+CSS3
+
+
+
+JavaScript
+
+
+
+Backend
+
+
+
+.NET 6 / ASP.NET Core Web API
+
+
+
+C#
+
+
+
+Base de Datos
+
+
+
+MySQL
+
+
+
+PhpMyAdmin
+
+
+
+Contenerización
+
+
 
 Docker
 
+
+
 Docker Compose
+
+
 
 🛠 5. Rutas del Backend y Ejemplos de Respuesta
 
-(Nota: Si bien la consigna menciona un endpoint llamado /submit-client-data, en este proyecto se implementa el estándar RESTful /api/clients, cumpliendo exactamente la misma funcionalidad requerida para almacenar los datos enviados desde el formulario).
+📌 GET /api/registro
 
-📌 GET /api/clients
+
 
 Obtener todos los registros.
 
+
+
 Ejemplo de respuesta:
 
-[
-  {
-    "id": 1,
-    "name": "lucia",
-    "email": "cocaroluciaguadalupe@gmail.com",
-    "phone": "2923497786",
-    "message": "Hola, primer mensaje",
-    "createdAt": "2025-12-01T19:23:10"
-  }
+
+
+\[
+
+  {
+
+    "id": 1,
+
+    "nombre": "Lucas",
+
+    "email": "lucas@mail.com",
+
+    "mensaje": "Hola!"
+
+  }
+
 ]
 
 
-📌 POST /api/clients
+
+📌 POST /api/registro
+
+
 
 Enviar datos del formulario.
 
+
+
 Body esperado:
 
+
+
 {
-  "name": "string",
-  "email": "user@example.com",
-  "phone": "string",
-  "message": "string"
+
+  "nombre": "Lucas",
+
+  "email": "lucas@mail.com",
+
+  "mensaje": "Consulta..."
+
 }
 
-(No es necesario enviar id ni createdAt, ya que son generados automáticamente por el backend).
+
+
 
 
 Respuesta:
 
+
+
 {
-  "success": true,
-  "message": "Registro almacenado correctamente"
+
+  "success": true,
+
+  "message": "Registro almacenado correctamente"
+
 }
 
 
 
-🙌 Autor:
+🧪 6. Criterios de Evaluación Cubiertos
 
-Proyecto realizado por Cócaro, Lucia Guadalupe.
+✅ Frontend
+
+
+
+HTML estructurado correctamente
+
+
+
+CSS aplicado de forma consistente
+
+
+
+JavaScript para consumir la API
+
+
+
+✅ Backend
+
+
+
+API funcional y estable
+
+
+
+Recepción correcta de solicitudes desde el formulario
+
+
+
+Inserción en base de datos MySQL
+
+
+
+✅ Docker
+
+
+
+Frontend contenerizado
+
+
+
+Backend contenerizado
+
+
+
+MySQL y PhpMyAdmin contenerizados
+
+
+
+Orquestación completa con Docker Compose
+
+
+
+✅ Git / GitHub
+
+
+
+Commits descriptivos y frecuentes
+
+
+
+Uso de branches
+
+
+
+Uso recomendado de pull requests
+
+
+
+✅ Documentación
+
+
+
+README completo
+
+
+
+Instrucciones claras para levantar el proyecto
+
+
+
+Descripción del flujo y la arquitectura
+
+
+
+📜 7. Flujo General del Proyecto
+
+
+
+El usuario completa el formulario en el frontend
+
+
+
+El frontend envía los datos al backend .NET
+
+
+
+El backend procesa la solicitud y guarda los datos en MySQL
+
+
+
+Se puede gestionar la base desde PhpMyAdmin
+
+
+
+Todo corre sobre Docker para garantizar portabilidad
+
+
+
+🙌 Autor
+
+
+
+Proyecto realizado por \[tu nombre o tu grupo]
+
